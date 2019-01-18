@@ -73,8 +73,8 @@ cc_library_shared {
     ],
 
     product_variables: {
-        syberia: {
-            qcom_bsp_legacy: {
+        beast: {
+            uses_qcom_bsp_legacy: {
                 cppflags: ["-DQCOM_BSP_LEGACY"],
             },
         },
